@@ -1,0 +1,26 @@
+języki programowania:
+
+- java 
+- c++
+- c#
+- php
+- javascript
+- python
+
+grafika i multimedia:
+
+- logo
+- zdjecia materialow dodatkowych
+- ikonka kursora
+- screenshoty kodu 
+- film o czymś
+- dźwięki czegoś
+
+TODO:
+
+- Zaprojektować layout strony
+- Znaleźć i przygotować materiał tekstowy
+- Zrobić grafikę
+- Nagrać dźwięk i film
+- Zrobić animacje przejścia
+
