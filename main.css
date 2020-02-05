@@ -3,12 +3,13 @@ a:hover{
 }
 footer {
    background-color: black;
+   height: auto;
 }
 footer > a {
    color: blue;
 }
 .copy {
-   font-size: 20%;
+   font-size: 100%;
    color: blue;
 }
 .com {
@@ -21,4 +22,5 @@ footer > a {
 }
 .com > a {
    margin-left: 0.5em;
+   font-size: 60px;
 }
