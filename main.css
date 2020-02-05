@@ -1,0 +1,24 @@
+a:hover{
+   text-decoration: none;
+}
+footer {
+   background-color: black;
+}
+footer > a {
+   color: blue;
+}
+.copy {
+   font-size: 20%;
+   color: blue;
+}
+.com {
+   float: right;
+   padding-right: 5vw;
+}
+.com::after {
+   content: "";
+   clear: both;
+}
+.com > a {
+   margin-left: 0.5em;
+}
