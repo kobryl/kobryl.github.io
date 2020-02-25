@@ -1,0 +1,23 @@
+		JAVA
+Java- język programowania, stworzony przez firmę Sun Microsystems w 1995 roku. Obecnym właścicielem jest firma Oracle. Jest językiem szerokiego zastosowania. 
+		ZASTOSOWANIE
+Używany jest do tworzenia aplikacji desktopowych, aplikacji mobilnych oraz rozwiązań backendowych. Do działania wymaga zainstalowania bezpłatnego środowiska Java, który umożliwia uruchomienia programu w dowolnym systemie operacyjnym. 
+		UDOGODNIENIA JAVY
+-Garbage collector- jest to mechanizm odpowiedzialny za czyszczenie nieużywanych obiektów strefy, czyli pamięci na zarezerwowane obiekty. Wirtualna maszyna sama decyduje kiedy 
+-WORA - czyli write once, run anywhere. Maszyna wirtualna Javy pozwala na uruchonienie programów na dowolnym systemie operacyjnym. 
+		DLACZEGO JAVA
+-duża społeczność programistów
+-liczne oferty pracy
+-Wieloplatformowość
+
+		C++	
+jest jednym z najpopularniejszych jezyków programowania. Wywodzi się bezpośrednio z języka C. Jest określany jako niskopoziomowy, co utrudnia pisanie aplikacji, ale znacznie zwiększa możliwości programistyczne.
+		ZASTOSOWANIE
+C++ znalazł zastosowanie głównie przy programowaniu aplikacji desktopowych oraz sterowników.
+		UDOGODNIENIA
+jezyk kompilowany - oznacza ze pracuje bardzo szybko, nawet w aplikacjach z dużą ilością wierszy.
+operacje na hardware - możliwość operowania na urządzeniach hardware jest możliwe dzięki wstawkom ASM.
+kompartybilność z C - jest kompatybilnie wstecznie z językiem C. 
+		DLACZEGO C++
+-aspekty niskiego poziomu.
+-duża liczba bibliotek 
