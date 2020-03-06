@@ -16,6 +16,13 @@ grafika i multimedia:
 - film o czymś
 - dźwięki czegoś
 
+MOTYW PRZEWODNI:
+
+- background-color: #003459
+- footer, header: #00171F
+- color: #00A8E8
+
+
 TODO:
 
 - Zaprojektować layout strony
