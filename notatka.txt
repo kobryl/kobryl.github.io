@@ -1,5 +1,5 @@
 		JAVA
-Java- język programowania, stworzony przez firmę Sun Microsystems w 1995 roku. Obecnym właścicielem jest firma Oracle. Jest językiem szerokiego zastosowania. 
+Jest językiem programowania, stworzony przez firmę Sun Microsystems w 1995 roku. Obecnym właścicielem jest firma Oracle. Jest językiem szerokiego zastosowania. 
 		ZASTOSOWANIE
 Używany jest do tworzenia aplikacji desktopowych, aplikacji mobilnych oraz rozwiązań backendowych. Do działania wymaga zainstalowania bezpłatnego środowiska Java, który umożliwia uruchomienia programu w dowolnym systemie operacyjnym. 
 		UDOGODNIENIA JAVY
@@ -11,7 +11,7 @@ Używany jest do tworzenia aplikacji desktopowych, aplikacji mobilnych oraz rozw
 -Wieloplatformowość
 
 		C++	
-jest jednym z najpopularniejszych jezyków programowania. Wywodzi się bezpośrednio z języka C. Jest określany jako niskopoziomowy, co utrudnia pisanie aplikacji, ale znacznie zwiększa możliwości programistyczne.
+Jeden z najpopularniejszych jezyków programowania. Wywodzi się bezpośrednio z języka C. Jest określany jako niskopoziomowy, co utrudnia pisanie aplikacji, ale znacznie zwiększa możliwości programistyczne.
 		ZASTOSOWANIE
 C++ znalazł zastosowanie głównie przy programowaniu aplikacji desktopowych oraz sterowników.
 		UDOGODNIENIA
