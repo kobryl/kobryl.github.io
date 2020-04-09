@@ -21,3 +21,14 @@ kompartybilność z C - jest kompatybilnie wstecznie z językiem C.
 		DLACZEGO C++
 -aspekty niskiego poziomu.
 -duża liczba bibliotek 
+
+PYTHON
+Obecnie najszybciej zyskujący popularoność język. Jest to wysokopoziomowy język. Jego ideą jest tworzenie czystego i przejrzystego kodu. 
+ZASTOSOWANIE
+Python jest językiem ogólnego przeznaczenia. Możemy dzięki niemu tworzyć między innymi skrypty, aplikacje okienkowe, rozwiązania backednowe oraz sztuczną inteligencję.
+UDOGODNIENIA
+Składnia - Jest stworzona tak, by maksymalnie ułatwić jego czytelność. W kodzie nie występują średniki oraz klamry. 
+Dynamiczne typowanie - Nie trzeba definiować typu zmiennej, gdyż Python sam je dobiera.
+DLACZEGO PYTHON
+-szerokie zastosowanie.
+szybko rosnąca popularność
