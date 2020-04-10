@@ -27,3 +27,15 @@ a:hover{
 hr {
    width: 100%;
 }
+footer {
+   background-color: black;
+   background-color: #00171F;
+   height: 6em;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   color: #00A8E8;
+}
+footer > a {
+   color: blue;
+}
