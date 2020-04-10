@@ -17,6 +17,11 @@
       </header>
       <div class="main">
          <div class="side">cze</div>
+         <!-- 
+            
+            TU BEDZIE SLAJDER!!11!!ONEone1!
+            
+         -->
          <!-- Karty -->
          <br>
          <div class="container">
@@ -85,13 +90,25 @@
                </div>
             </div>
             <div class="row">
-               <hr class="bg-dark mx-4" style="margin-left: 7.5rem!important;">
+               <hr class="bg-dark mx-4">
             </div>
          </div>
          <!-- Koniec kart-->
+         <article id="cpp">
+            <h4>C++</h4>
+         </article>
       </div>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+         $(document).on('click', 'a[href^="#"]', function (event) {
+             event.preventDefault();
+
+             $('html, body').animate({
+                 scrollTop: $($.attr(this, 'href')).offset().top
+             }, 500);
+         });
+      </script>
    </body>
 </html>
