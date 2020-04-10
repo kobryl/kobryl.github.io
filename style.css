@@ -21,3 +21,9 @@ header{
 body{
     cursor: url(kursor.png), auto;
 }
+a:hover{
+   text-decoration: none;
+}
+hr {
+   width: 100%;
+}
