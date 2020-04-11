@@ -13,18 +13,9 @@ header{
     width: 100%;
     background-color: #121212;
     height: 100%;
-    display: flex;
     color: white
 }
-.side{
-    /*width: 200px;
-    height: 100%;*/ 
-    background-color: black;
-    /*float: left;*/
-   flex: 1;
-}
 .kontent{
-   flex: 4;
    padding: 0;
 }
 /*.side::after{
