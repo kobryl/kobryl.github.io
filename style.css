@@ -7,16 +7,23 @@ header{
 .main{
     width: 100%;
     background-color: #121212;
+    height: 100%;
+   display: flex;
 }
 .side{
     width: 200px;
-    height: 100%;
+    /*height: 100%;*/
     background-color: black;
-    float: left;
+    /*float: left;*/
+   flex: 1;
 }
-.side::after{
+.kontent{
+   flex: 4;
+   padding: 0;
+}
+/*.side::after{
     clear: both;
-}
+}*/
 body{
     cursor: url(kursor.png), auto;
 }
@@ -40,4 +47,7 @@ footer > a {
 }
 .kunc {
    margin-bottom: 6em;
+}
+.artykuly > .row {
+   padding: 1vw;
 }
