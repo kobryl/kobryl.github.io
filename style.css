@@ -41,9 +41,17 @@ footer {
    position: fixed;
    bottom: 0;
    color: #00A8E8;
+   display: flex;
+   align-items: center;
 }
 footer > a {
    color: blue;
+}
+.copy {
+   flex: 1;
+}
+.com {
+   flex: .5;
 }
 .kunc {
    margin-bottom: 6em;
