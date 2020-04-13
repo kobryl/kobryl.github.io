@@ -78,3 +78,6 @@ footer {
    bottom: 5vh;
    right: 3vw;
 }
+a.fa:hover {
+   color: #343A40;
+}
