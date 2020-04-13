@@ -35,10 +35,15 @@ footer {
    background-color: black;
    height: 6em;
    width: 100%;
+   position: fixed;
+   bottom: 0;
    color: white;
 }
 .fa {
    color: white;
+}
+.kunc {
+   margin-bottom: 6em;
 }
 .artykuly > .row {
    padding: 1vw;
