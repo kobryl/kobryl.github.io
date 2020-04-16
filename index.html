@@ -24,9 +24,8 @@
             </header>
         <div class="main">
 <!-- Karty -->
-            <div class="kontent">
-                <div aria-live="polite" aria-atomic="true" style="position: fixed; min-height: 200px;">
-                    <div class="toast bg-dark" style="position: fixed;"  data-autohide="false">
+           <div aria-live="polite" aria-atomic="true">
+                    <div class="toast bg-dark helper" style="position: fixed;"  data-autohide="false">
                         <div class="toast-header" style="background-color: black;">
                             <strong class="mr-auto">Sztuka Programowania</strong>
                             <small>Łukasz Nowakowski, Konrad Bryłowski</small>
@@ -39,6 +38,8 @@
                         </div>
                     </div>
                 </div>
+            <div class="kontent">
+                
                 <div id="slajder" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -60,8 +61,8 @@
                          <img src="slajder6.png" class="d-block w-100" alt="java3">
                       </div>
                   </div>
-               </div>
-                <br id="menu"><!-- To id musi być wyżej - - no musi być, bo header zasłania a na niego anchory nie zwracają uwagi-->
+                <br id="menu">
+               </div><!-- To id musi być wyżej - - no musi być, bo header zasłania a na niego anchory nie zwracają uwagi-->
                 <div class="container">
                     <div class="row">
                         <hr class="bg-dark mx-4">
@@ -71,7 +72,7 @@
                     <div class="row">
                         <div class="col">
                             <a href="#C">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem; height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">C++</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -82,7 +83,7 @@
                         </div>
                         <div class="col">
                             <a href="#P">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem;  height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">Python</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -93,7 +94,7 @@
                         </div>
                         <div class="col">
                             <a href="#J">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem; height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">Java</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -106,7 +107,7 @@
                     <div class="row">
                         <div class="col">
                             <a href="#tool">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem; height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">Przydatne narzędzia</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -117,7 +118,7 @@
                         </div>
                         <div class="col">
                             <a href="#film">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem; height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">Poradnik *tu film*</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -128,7 +129,7 @@
                         </div>
                         <div class="col">
                             <a href="#dod">
-                                <div class="card text-white bg-dark mb-3 btn" style="max-width: 23rem; height: 10em">
+                                <div class="card text-white bg-dark mb-3 btn menu">
                                     <div class="card-body">
                                         <h4 class="card-title">Materiały dodatkowe</h4>
                                         <hr style="background-color: rgb(18,18,18);">
@@ -323,7 +324,6 @@ Tu film
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -350,6 +350,7 @@ Tu film
                         $(document).ready(function(){
                             $('.toast').toast('show');
                         });
+                      return false;
                     break;
                     case 1:
                         document.getElementById("powitanie").innerHTML="Użyj przycisku menu by łatwiej nawigować po stronie";
@@ -359,6 +360,7 @@ Tu film
                         $(document).ready(function(){
                             $('.toast').toast('hide');
                         });
+                      return false;
                     break;
                     default: break;
                 }

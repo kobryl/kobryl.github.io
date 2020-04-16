@@ -94,14 +94,19 @@ a.fa:hover {
 #slajder {
    display: flex;
    align-items: center;
-   padding-top: 3vh;
-   height: 675px;
+   height: 50vw;
 }
 .menu {
    max-width: 23rem;
    height: 12em
 }
-.carousel-inner {
+/*.carousel-inner {
    display: flex;
-   align-items: center;
+   align-items: center
+}*/
+.helper {
+   position: fixed;
+   right: 5vw;
+   top: 15vh;
+   z-index: 2;
 }
