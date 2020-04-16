@@ -107,3 +107,7 @@ a.fa:hover {
    max-width: 23rem;
    height: 12em
 }
+.carousel-inner {
+   display: flex;
+   align-items: center;
+}
