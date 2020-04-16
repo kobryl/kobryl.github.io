@@ -103,3 +103,7 @@ a.fa:hover {
    padding-top: 3vh;
    height: 675px;
 }
+.menu {
+   max-width: 23rem;
+   height: 12em
+}
