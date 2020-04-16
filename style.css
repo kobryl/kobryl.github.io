@@ -98,6 +98,8 @@ a.fa:hover {
     text-align: center;
 }
 #slajder {
+   display: flex;
+   align-items: center;
    padding-top: 3vh;
    height: 675px;
 }
