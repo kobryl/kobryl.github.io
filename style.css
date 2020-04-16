@@ -30,9 +30,6 @@ nav >a:hover{
    margin-left: 10%;
    margin-right: 10%;
 }
-/*.side::after{
-    clear: both;
-}*/
 body{
     cursor: url(kursor.png), auto;
 }
@@ -45,9 +42,6 @@ hr {
 footer {
    background-color: black;
    height: 6em;
-   /*width: 100vw;
-   position: fixed;
-   bottom: 0;*/
    color: white;
    padding-left: .5em;
 }
