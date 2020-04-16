@@ -17,24 +17,24 @@
             <header>
                 <nav class="nav">
                     <img src="bitmap.png" style="width: 130px; height: 100px;" alt="logo">
-                    <a class="nav-link active" href="" style="padding-top: 35px;" onclick="powitanie(-4)"><h4>Przewodnik</h4></a>
+                    <a class="nav-link active" href="" style="padding-top: 35px;" onclick="powitanie(-7)"><h4>Rozpocznij</h4></a>
                     <a class="nav-link active" href="#menu" style="padding-top: 35px;"><h4>Menu</h4></a>
                     <a class="nav-link active" href="#footer" style="padding-top: 35px;"><h4>Dołącz do społeczności</h4></a>
                 </nav>
             </header>
-        <div class="main">
+            <div class="main">
 <!-- Karty -->
-           <div aria-live="polite" aria-atomic="true">
+                <div aria-live="polite" aria-atomic="true">
                     <div class="toast bg-dark helper" style="position: fixed;"  data-autohide="false">
                         <div class="toast-header" style="background-color: black;">
                             <strong class="mr-auto">Sztuka Programowania</strong>
-                            <small>Łukasz Nowakowski, Konrad Bryłowski</small>
+                            <small>Łukasz Nowakowski &amp; Konrad Bryłowski</small>
                             <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close" style="color: white">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="toast-body">
-                            <p id="powitanie">Witaj na naszej stronie.</p><button type="button" class="btn btn-light" style="float: right; margin-bottom: 15px;" onclick="powitanie(0)" id="powitaniePrzycisk">Dalej</button>
+                            <p id="powitanie">Witaj na stronie Sztuka Programowania. Jestem Twoim asystentem i pomogę Ci w nawigacji na stronie.</p><button type="button" class="btn btn-light" style="float: right; margin-bottom: 15px;" onclick="powitanie(0)" id="powitaniePrzycisk">Dalej</button>
                         </div>
                     </div>
                 </div>
@@ -61,9 +61,9 @@
                          <img src="slajder6.png" class="d-block w-100" alt="java3">
                       </div>
                   </div>
-                <br id="menu">
-               </div><!-- To id musi być wyżej - - no musi być, bo header zasłania a na niego anchory nie zwracają uwagi-->
-                <div class="container">
+                <br>
+               </div>
+                <div class="container" id="menu">
                     <div class="row">
                         <hr class="bg-dark mx-4">
                     </div>
@@ -177,7 +177,7 @@
                     <h5 class="naglowki">Udogodnienia</h5>
                     <ul class="tekst bg-dark" style="padding-left: 20px;">
                         <li>Składnia - jest stworzona tak, by maksymalnie ułatwić jego czytelność, w kodzie nie występują średniki oraz klamry.</li>
-                        <li>Dynamiczne typowanie - nie trzeba definiować typu zmiennej, gdyż Python sam je dobiera, można je zmieniać w czasie działania programu.</li>
+                        <li>Dynamiczne typowanie - nie trzeba definiować typu zmiennej, gdyż Python sam je dobiera; można je zmieniać w czasie działania programu.</li>
                     </ul>
                     <h5 class="naglowki">Dlaczego Python</h5>
                     <ul class="tekst bg-dark" style="padding-left: 20px;">
@@ -199,7 +199,7 @@
                     <p class="tekst bg-dark">Używany jest do tworzenia aplikacji desktopowych, aplikacji mobilnych oraz rozwiązań backendowych. Do działania wymaga zainstalowania bezpłatnego środowiska Java, który umożliwia uruchomienia programu w dowolnym systemie operacyjnym.</p>
                     <h5 class="naglowki">Udogodnienia</h5>
                     <ul class="tekst bg-dark" style="padding-left: 20px;">
-                        <li>Garbage collector - jest to mechanizm odpowiedzialny za czyszczenie nieużywanych obiektów strefy, czyli pamięci na zarezerwowane obiekty, wirtualna maszyna sama decyduje kiedy wykonać czyszczenie.</li>
+                        <li>Garbage collector - jest to mechanizm odpowiedzialny za czyszczenie nieużywanych obiektów strefy, czyli pamięci na zarezerwowane obiekty; wirtualna maszyna sama decyduje kiedy wykonać czyszczenie.</li>
                         <li>WORA - write once, run anywhere - maszyna wirtualna Javy pozwala na uruchonienie programów na dowolnym systemie operacyjnym.</li>
                     </ul>
                     <h5 class="naglowki">Dlaczego Java</h5>
@@ -318,7 +318,7 @@ Tu film
                 <div class="row"><div class="col-sm">Dołącz do społeczności:</div><br></div>
                 <div class="row" style="letter-spacing: 18px;"><div class="col-12"><a class="fa fa-facebook-square fa-2x" href="https://facebook.com/" target="_blank"></a><a class="fa fa-github-square fa-2x" href="https://github.com/kobryl/" target="_blank"></a><a class="fa fa-twitter-square fa-2x" href="https://twitter.com/" target="_blank"></a><a class="fa fa-youtube-play fa-2x" href="https://youtube.com/" target="_blank"></a></div></div>
             </span>
-            <span class="copy">&copy; 2020 Łukasz Nowakowski, Konrad Bryłowski</span>
+            <span class="copy">&copy; 2020 Łukasz Nowakowski &amp; Konrad Bryłowski</span>
         </footer>
         <div class="return"><a class="fa fa-arrow-circle-up fa-4x" href="#begin"></a></div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -353,10 +353,26 @@ Tu film
                       return false;
                     break;
                     case 1:
-                        document.getElementById("powitanie").innerHTML="Użyj przycisku menu by łatwiej nawigować po stronie";
-                        document.getElementById("powitaniePrzycisk").innerHTML="Zakończ";
+                        document.getElementById("powitanie").innerHTML="Użyj przycisków w sekcji 'Menu', by przejśc do interesującego Cię artykułu.";
+                        document.getElementById("powitaniePrzycisk").innerHTML="Dalej";
                     break;
                     case 2:
+                        document.getElementById("powitanie").innerHTML="By szybko wrócić na górę, wciśnij ikonkę strzałki znajdującej się w prawym dolnym rogu.";
+                        document.getElementById("powitaniePrzycisk").innerHTML="Dalej";
+                    break;
+                    case 3:
+                        document.getElementById("powitanie").innerHTML="Użyj górnego panelu, by przenieść się do menu lub naszych mediów społecznościowych";
+                        document.getElementById("powitaniePrzycisk").innerHTML="Dalej";
+                    break;
+                    case 4:
+                        document.getElementById("powitanie").innerHTML="Mam nadzieję, że nasza strona Ci się spodoba! Jeśli tak, to nie zapomnij odwiedzić nas na naszych mediach społecznościowych.";
+                        document.getElementById("powitaniePrzycisk").innerHTML="Dalej";
+                    break;
+                    case 5:
+                        document.getElementById("powitanie").innerHTML="Jeśli będziesz potrzebował mojej pomocy, kliknij przycisk 'Rozpocznij', który znajdziesz na górnym panelu strony.";
+                        document.getElementById("powitaniePrzycisk").innerHTML="Zakończ";
+                    break;
+                    case 6:
                         $(document).ready(function(){
                             $('.toast').toast('hide');
                         });
