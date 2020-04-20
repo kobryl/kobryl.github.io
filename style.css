@@ -110,3 +110,6 @@ a.fa:hover {
    top: 15vh;
    z-index: 2;
 }
+.przycisk{
+    cursor: url(kursor2.png), auto;
+}
