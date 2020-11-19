@@ -87,7 +87,7 @@
                         }
                     }
                 } else if(btn == 'sqrt') {
-                    if(ekran.value != ''){
+                    if(ekran.value != '' && trig != 2){
                         historia.innerHTML += '&radic;('+ekran.value+')=';
                         ekran.value = Math.sqrt(eval(ekran.value));
                         historia.innerHTML += ekran.value + '<br>';
@@ -99,7 +99,7 @@
                         }
                     }
                 } else if(btn == "+-") {
-                    if(ekran.value != "") {
+                    if(ekran.value != "" && trig != 2) {
                         historia.innerHTML += '-(' + ekran.value + ')=';
                         ekran.value = -eval(ekran.value);
                         historia.innerHTML += ekran.value + '<br>';
