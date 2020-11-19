@@ -87,14 +87,16 @@
                         }
                     }
                 } else if(btn == 'sqrt') {
-                    historia.innerHTML += '&radic;('+ekran.value+')=';
-                    ekran.value = Math.sqrt(eval(ekran.value));
-                    historia.innerHTML += ekran.value + '<br>';
-                    trig = 3;
-                    if(ekran.value == "NaN") {
-                        trig = 0;
-                        ekran.value = '';
-                        alert("Nie można pierwiastkować liczb ujemnych!");
+                    if(ekran.value != ''){
+                        historia.innerHTML += '&radic;('+ekran.value+')=';
+                        ekran.value = Math.sqrt(eval(ekran.value));
+                        historia.innerHTML += ekran.value + '<br>';
+                        trig = 3;
+                        if(ekran.value == "NaN") {
+                            trig = 0;
+                            ekran.value = '';
+                            alert("Nie można pierwiastkować liczb ujemnych!");
+                        }
                     }
                 } else if(btn == "+-") {
                     if(ekran.value != "") {
@@ -104,12 +106,12 @@
                         trig = 3;
                     }
                 } else if(btn == '%') {
-                    if(trig != 2) {
+                    if(trig != 2 && ekran.value != '') {
                         ekran.value += "/100*";
                         trig = 2;
                     }
                 } else if(["+", "-", "*", "/"].includes(btn)){
-                    if(trig != 2) {
+                    if(trig != 2 && ekran.value != '') {
                         ekran.value += btn;
                         trig = 2;
                     }
