@@ -58,11 +58,12 @@
                         historia.innerHTML += ekran.value + '=';
                         ekran.value = eval(ekran.value);
                         historia.innerHTML += ekran.value + '<br>';
+                        trig = 3;
                         if(ekran.value == "Infinity") {
                             ekran.value = '';
                             alert("Nie można dzielić przez zero!");
+                            trig = 0;
                         }
-                        trig = 3;
                     }
                 } else if(btn == "C") {
                     ekran.value = '';
@@ -115,6 +116,7 @@
                 } else {
                     if(trig == 3){
                         ekran.value = '';
+                        trig = 0;
                     }
                     if(ekran.value == "0" || (ekran.value.charAt(ekran.value.length - 1) == 0 && (ekran.value.length == 1 || ["+", "-", "*", "/"].includes(ekran.value.charAt(ekran.value.length - 2))))){
                         ekran.value = ekran.value.slice(0, -1);
@@ -122,6 +124,8 @@
                     ekran.value += btn;
                     if(trig == 2) trig = 0;
                 }
+                historia.innerHTML = historia.innerHTML.replaceAll("-", "&minus;");
+                historia.innerHTML = historia.innerHTML.replaceAll("/100*", "%");
             }
         </script>
     </body>
